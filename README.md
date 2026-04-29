@@ -4,7 +4,7 @@ Exploratory data analysis of the World Happiness Report (2015–2019) using Pyth
 ## Tools & Libraries
 - **Python**: Pandas, NumPy, Matplotlib, Seaborn
 - **SQL**: SQLite (in-memory querying for aggregation)
-- **Excel**: cleaned dataset exported for dashboard use
+- **Excel**: interactive dashboard with pivot tables, slicers, and correlation table
 
 ## Files
 - `World_Happiness_Report_Exploratory_Data_Analysis.ipynb`- main analysis notebook
@@ -17,6 +17,12 @@ Exploratory data analysis of the World Happiness Report (2015–2019) using Pyth
 - **UAE happiness trend**: tracked year-by-year score changes and contextualised dips against regional events
 - **Correlation analysis**: heatmap and pair plots identifying which factors most strongly predict happiness
 - **GDP vs Happiness**: regression plot exploring the relationship between wealth and wellbeing
+
+## Key Questions Explored
+- What factors predict national happiness most strongly?
+- How has the UAE's happiness score changed over 5 years?
+- How do GDP, social support, and life expectancy interact?
+- Which countries are consistently the happiest and unhappiest?
 
 ## Key Findings
 1. **GDP is the strongest predictor of happiness (r = 0.79)**: wealthier nations consistently score higher, but wealth alone doesn't tell the whole story.
